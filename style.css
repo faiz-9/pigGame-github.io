@@ -152,3 +152,113 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+    .wrapper {
+    width: 850px;
+    }
+
+    .active .player-name::after{
+        right:-38px;
+    }
+}
+
+
+@media only screen and (max-width: 872px){
+      .wrapper {
+    width: 700px;
+    }
+
+    .active .player-name::after{
+        right:-38px;
+    }
+
+    .player-current-box{
+        width:54%;
+    }
+}
+
+
+@media only screen and (max-width: 730px){
+    .wrapper {
+    width: 600px;
+    }
+
+    .active .player-name::after{
+        top:-15px;
+        right:-52px;
+    }
+
+    .player-current-box{
+        width:82%;
+    }
+
+    .player-name {
+    font-size: 28px;
+    }
+}
+
+
+@media only screen and (max-width: 624px){
+    .wrapper {
+    width: 500px;
+    }
+
+    .active .player-name::after{
+        /*top:-15px;*/
+        right:-89px;
+    }
+
+    .player-current-box{
+        width:154%;
+    }
+
+    button {
+    left: 52%;
+}
+
+
+
+
+@media only screen and (max-width: 524px){
+     .wrapper {
+    width: 400px;
+    }
+
+    .active .player-name::after {
+    top: -24px;
+    right: -91px;
+    }
+
+    .player-name {
+    font-size: 14px;
+    }
+
+    .btn-roll {
+    top: 435px;
+    }
+
+    i{
+        font-size:18px;
+    }
+
+    button{
+        font-size:14px;
+        left:54%;
+    }
+
+    .player-current-box {
+    background-color:#fff;
+    color:black;
+    width: 100%;
+    /*margin: 0 auto;*/
+    padding: 12px;
+    /*text-align: center;*/
+}
+}
+
+
